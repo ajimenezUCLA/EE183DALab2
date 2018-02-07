@@ -48,7 +48,8 @@ http://www.instructables.com/id/Programming-the-ESP8266-12E-using-Arduino-softwa
 
 ![alt text](https://github.com/waterbottels/EE183DALab2/blob/master/schematic.png "Schematics")
 ### Step 4: Code
-
+The code can be found here:
+https://github.com/ckwojai/EE183_JamBand/tree/master/code
 
 ## Multi-Robot Collaboration
 Essentially, one acts as a sender (master) and the other acts as a reciever (slave). Serial communication basically means the sender will do a Serial.Print('R') *(R stands for ready)* before executing any instrument playing code.
