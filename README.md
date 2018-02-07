@@ -36,6 +36,8 @@ http://www.instructables.com/id/Programming-the-ESP8266-12E-using-Arduino-softwa
 ![MC2](http://amazingrobots.net/wp-content/uploads/2016/06/motor_shield_diagram.jpg "MCU")
 
 ### Step 2: Theory & Data Collection
+![sensor1](https://github.com/waterbottels/EE183DALab2/blob/master/component1.png "sensor 1")
+![sensor2](https://github.com/waterbottels/EE183DALab2/blob/master/component2.png "sensor 2")
 ![alt text](https://github.com/waterbottels/EE183DALab2/blob/master/sensors1.png "M")
 ![alt text](https://github.com/waterbottels/EE183DALab2/blob/master/sensors2.png "M")
 ![alt text](https://github.com/waterbottels/EE183DALab2/blob/master/sensors3.png "M")
