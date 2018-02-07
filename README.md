@@ -61,6 +61,8 @@ The receiver will check Serial.available() and the signal from the Serial buffer
 
 ## Website
 Website: https://ckwojai.github.io/EE183_JamBand/
+The drum micro controller (Master) is connected to a home Wifi. Go into the router settings and do port forwarding at port 80 (this is done in the code). You can use a service such as www.whatsmyip.org tofind your IP address.
+This IP Address can be used by anyone who wants to access your robot controls, or you can create a web infterface and host it via github which directly links to your robots controls.
 
 ![alt text](https://github.com/waterbottels/EE183DALab2/blob/master/website2.png "Website")
 
