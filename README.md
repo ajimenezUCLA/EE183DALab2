@@ -59,6 +59,8 @@ https://github.com/ckwojai/EE183_JamBand/tree/master/code
 Essentially, one acts as a sender (master) and the other acts as a reciever (slave). Serial communication basically means the sender will do a Serial.Print('R') *(R stands for ready)* before executing any instrument playing code.
 The receiver will check Serial.available() and the signal from the Serial buffer. If it gets an R, it sets this alue as true which iniates the instrument playing code. This is true for the tempo and song selection.
 ## Website
+Website: https://ckwojai.github.io/EE183_JamBand/
+
 ![alt text](https://github.com/waterbottels/EE183DALab2/blob/master/website2.png "Website")
 
 
