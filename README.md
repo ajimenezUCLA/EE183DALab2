@@ -58,6 +58,9 @@ http://fritzing.org/home/
 You can download our design here.
 https://github.com/waterbottels/EE183DALab2/blob/master/lab2_Schematics.fzz
 
+** Something to Note **
+We found some technical difficulties regarding the powering of all the instruments. We used an Arduino Uno to power the Ultrasonic sensor as it required 5Vdc to function properly. We found that batteries such as 3.7vDC LP or a Power Bank were sufficient to power most of the devices.
+
 ![alt text](https://github.com/waterbottels/EE183DALab2/blob/master/mechanics.png "Mechanical Drawing")
 
 ![alt text](https://github.com/waterbottels/EE183DALab2/blob/master/schematic.png "Schematics")
