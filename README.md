@@ -31,7 +31,7 @@ The buzzer instrument utilizes an ESP8266, a motor control board, a servo, and l
 ## Multi-Robot COllaboration
 
 ## Website
-![alt text](https://github.com/waterbottels/EE183DALab2/blob/master/website.png "Website")
+![alt text](https://github.com/waterbottels/EE183DALab2/blob/master/website2.png "Website")
 
 
 ## Demonstrations
