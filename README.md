@@ -17,18 +17,31 @@ Our goal was to build a musical "jam band" driven by two ESP8266 microcontroller
 | 1   | OOBG          | 330 ohm + 5% resistor    | a resistor                         | https://www.sparkfun.com/products/11507                                                                                                  |
 | 1   | 12E           | Motor Shield             | Housing for ESP 8266               | https://hackaday.io/project/8856-incubator-controller/log/29291-node-mcu-motor-shield                                                    |
 | 2   | LP-503562     | 3.7v Battery             | Powers the robot                   | https://www.adafruit.com/product/258                                                                                                     |
-## Schematics
-![alt text](https://github.com/waterbottels/EE183DALab2/blob/master/mechanics.png "Mechanical Drawing")
-
-![alt text](https://github.com/waterbottels/EE183DALab2/blob/master/schematic.png "Schematics")
-
 ## Setup
 ### Instrument 1: Chopstick Drumstick
 The drumstick instrument utilizes an ESP8266, a motor control board, a servo, and lastly a chopstick. This ESP8266 acted as the master in our jam band. It relayed information via two serial connections to the other ESP8266. The servo was connected to D0 on the master controller. This component also served as the host for the website.
 ![drumstick](https://images-na.ssl-images-amazon.com/images/I/41-aA8t56uL._SX342_.jpg "servo")
 ### Instrument 2: Buzzer
-The buzzer was a very useful instrument as the arduino code allowed us to play various notes with it.
+The buzzer was a very useful instrument as the arduino code allowed us to play various notes with it. This instrument was connected to a reciever ESP8266. This ESP8266 awaited on commands from the master ESP8266 which would allow it to determine the song and tempo.
 ![buzzer](http://www.futurlec.com/Pictures/3VPIEZOPCB.jpg "buzzer")
+
+## Steps
+### Step 1: ESP8266-E12 & MCU
+The ESP8266 is a microcontroller much like the popular Arduino, except it has built in wifi.
+Set up instructions can be found here.
+http://www.instructables.com/id/Programming-the-ESP8266-12E-using-Arduino-software/ 
+#### Pinout
+![MC1](http://amazingrobots.net/2017-2/resources/nodemcudevkit_v1-0_io/#main "ESP 8266")
+![MC2](http://amazingrobots.net/wp-content/uploads/2016/06/motor_shield_diagram.jpg "MCU")
+
+### Step 2: Theory & Data Collection
+
+### Step 3: Logic Design & Execution
+![alt text](https://github.com/waterbottels/EE183DALab2/blob/master/mechanics.png "Mechanical Drawing")
+
+![alt text](https://github.com/waterbottels/EE183DALab2/blob/master/schematic.png "Schematics")
+### Step 4: Code
+
 
 ## Multi-Robot Collaboration
 Essentially, one acts as a sender (master) and the other acts as a reciever (slave). Serial communication basically means the sender will do a Serial.Print('R') *(R stands for ready)* before executing any instrument playing code.
