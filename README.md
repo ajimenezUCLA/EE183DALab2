@@ -24,12 +24,15 @@ Our goal was to build a musical "jam band" driven by two ESP8266 microcontroller
 
 ## Setup
 ### Instrument 1: Chopstick Drumstick
-The buzzer instrument utilizes an ESP8266, a motor control board, a servo, and lastly a chopstick. This ESP8266 acted as the master in our jam band. It relayed information via two serial connections to the other ESP8266. The servo was connected to D0 on the master controller.
+The drumstick instrument utilizes an ESP8266, a motor control board, a servo, and lastly a chopstick. This ESP8266 acted as the master in our jam band. It relayed information via two serial connections to the other ESP8266. The servo was connected to D0 on the master controller. This component also served as the host for the website.
+![drumstick](https://images-na.ssl-images-amazon.com/images/I/41-aA8t56uL._SX342_.jpg "servo")
 ### Instrument 2: Buzzer
+The buzzer was a very useful instrument as the arduino code allowed us to play various notes with it.
+![buzzer](http://www.futurlec.com/Pictures/3VPIEZOPCB.jpg "buzzer")
 
-
-## Multi-Robot COllaboration
-
+## Multi-Robot Collaboration
+Essentially, one acts as a sender (master) and the other acts as a reciever (slave). Serial communication basically means the sender will do a Serial.Print('R') *(R stands for ready)* before executing any instrument playing code.
+The receiver will check Serial.available() and the signal from the Serial buffer. If it gets an R, it sets this alue as true which iniates the instrument playing code. This is true for the tempo and song selection.
 ## Website
 ![alt text](https://github.com/waterbottels/EE183DALab2/blob/master/website2.png "Website")
 
