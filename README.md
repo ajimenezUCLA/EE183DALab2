@@ -48,6 +48,16 @@ http://www.instructables.com/id/Programming-the-ESP8266-12E-using-Arduino-softwa
 ![alt text](https://github.com/waterbottels/EE183DALab2/blob/master/sensors6.png "M")
 
 ### Step 3: Logic Design & Execution
+For our schematics and Mechanical Design we used EAGLE and Fritzing.
+Here is a tutorial on EAGLE.
+https://learn.sparkfun.com/tutorials/how-to-install-and-setup-eagle
+
+You can play with the mechanical design of the board with Fritzing.
+http://fritzing.org/home/
+
+You can download our design here.
+https://github.com/waterbottels/EE183DALab2/blob/master/lab2_Schematics.fzz
+
 ![alt text](https://github.com/waterbottels/EE183DALab2/blob/master/mechanics.png "Mechanical Drawing")
 
 ![alt text](https://github.com/waterbottels/EE183DALab2/blob/master/schematic.png "Schematics")
