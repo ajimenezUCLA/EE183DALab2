@@ -30,11 +30,18 @@ The buzzer was a very useful instrument as the arduino code allowed us to play v
 The ESP8266 is a microcontroller much like the popular Arduino, except it has built in wifi.
 Set up instructions can be found here.
 http://www.instructables.com/id/Programming-the-ESP8266-12E-using-Arduino-software/ 
+
 #### Pinout
-![MC1](http://amazingrobots.net/2017-2/resources/nodemcudevkit_v1-0_io/#main "ESP 8266")
+![MC1](http://amazingrobots.net/wp-content/uploads/2016/06/nodemcu_pinout.png "ESP 8266")
 ![MC2](http://amazingrobots.net/wp-content/uploads/2016/06/motor_shield_diagram.jpg "MCU")
 
 ### Step 2: Theory & Data Collection
+![alt text](https://github.com/waterbottels/EE183DALab2/blob/master/sensors1.png "M")
+![alt text](https://github.com/waterbottels/EE183DALab2/blob/master/sensors2.png "M")
+![alt text](https://github.com/waterbottels/EE183DALab2/blob/master/sensors3.png "M")
+![alt text](https://github.com/waterbottels/EE183DALab2/blob/master/sensors4.png "M")
+![alt text](https://github.com/waterbottels/EE183DALab2/blob/master/sensors5.png "M")
+![alt text](https://github.com/waterbottels/EE183DALab2/blob/master/sensors6.png "M")
 
 ### Step 3: Logic Design & Execution
 ![alt text](https://github.com/waterbottels/EE183DALab2/blob/master/mechanics.png "Mechanical Drawing")
