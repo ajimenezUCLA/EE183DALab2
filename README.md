@@ -80,5 +80,6 @@ This IP Address can be used by anyone who wants to access your robot controls, o
 ![alt text](https://github.com/waterbottels/EE183DALab2/blob/master/website2.png "Website")
 
 ## Demonstrations
-
-[![Alt text](https://img.youtube.com/vi/VID/0.jpg)](https://youtu.be/DO1NRDxI4-o)
+<a href="http://www.youtube.com/watch?feature=player_embedded&v=DO1NRDxI4-o
+" target="_blank"><img src="http://img.youtube.com/vi/DO1NRDxI4-o/0.jpg" 
+alt="EE-183DA Lab2" width="240" height="180" border="10" /></a>
